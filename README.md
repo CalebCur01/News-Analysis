@@ -1,5 +1,7 @@
 # News-Analysis
 
+Analysis of data from fox5atlanta.com using SpaCY, Genshim, and visualizing using Seaborn and matplotlib.
+
 # Graphs and charts
 The most common words and most common tokens:
 ![Most common tokens](https://github.com/CalebCur01/News-Analysis/assets/25915691/5c7bf5e5-482a-446e-b23a-fd5ea7ea945f)
