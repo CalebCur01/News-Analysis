@@ -1,6 +1,6 @@
 # News-Analysis
 
-Analysis of data from fox5atlanta.com using SpaCY, Genshim, and visualizing using Seaborn and matplotlib.
+Analysis of data from fox5atlanta.com using SpaCY, Gensim, and visualizing using Seaborn and matplotlib.
 
 # Graphs and charts
 The most common words and most common tokens:
