@@ -20,6 +20,19 @@ Values range from [-1,1]. Numbers less than 0 indicate negative sentiment, while
 
 ![Sentiment_Histogram](https://github.com/CalebCur01/News-Analysis/assets/25915691/3c490739-8baa-47ee-a9d9-e406c41a7545)
 
+Named Entities:
+
+We use SpaCY Named Entity Recognition on each of the articles in our database to detect and count people, organizations, locations, and so on. Note FAC is "Buildings, airports, highways, bridges, etc." and NORP is "Nationalities, religious, or political groups"
+![Entity_Type_Counts](https://github.com/CalebCur01/News-Analysis/assets/25915691/097df787-a7d9-4f3b-b353-f0cc82a8b987)
+
+![Top_25_People](https://github.com/CalebCur01/News-Analysis/assets/25915691/da31f799-af32-4305-99b8-881998961a80)
+
+We do not always get perfect results. For example, we should change to count "Trump" and "Donald Trump" as one entry. Likewise for "Biden"/"Joe Biden", and "Kemp"/"Brian Kemp". We also see "Sandy Springs" classified as a person, not a place.
+
+![Top_25_Places](https://github.com/CalebCur01/News-Analysis/assets/25915691/860b6aee-437c-4834-8374-85ff83117b3a)
+
+![Top_25_Org](https://github.com/CalebCur01/News-Analysis/assets/25915691/8f9a7c85-e4ea-4099-b151-d000ace3d9d8)
+
 
 
 
