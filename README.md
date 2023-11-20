@@ -29,7 +29,7 @@ We use SpaCY Named Entity Recognition on each of the articles in our database to
 
 ![Top_25_People](https://github.com/CalebCur01/News-Analysis/assets/25915691/da31f799-af32-4305-99b8-881998961a80)
 
-We do not always get perfect results. For example, we should change to count "Trump" and "Donald Trump" as one entry. Likewise for "Biden"/"Joe Biden", and "Kemp"/"Brian Kemp". We also see "Sandy Springs" classified as a person, not a place.
+We do not always get perfect results. For example, we should change to count "Trump" and "Donald Trump" as one entry. Likewise for "Biden"/"Joe Biden", and "Kemp"/"Brian Kemp". We also see "Sandy Springs" incorrectly classified as a person, not a place.
 
 ![Top_25_Places](https://github.com/CalebCur01/News-Analysis/assets/25915691/860b6aee-437c-4834-8374-85ff83117b3a)
 
